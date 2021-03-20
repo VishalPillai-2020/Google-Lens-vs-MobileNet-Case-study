@@ -1,0 +1,35 @@
+body {
+    text-align: center !important;
+    font-family: 'Syne Mono', monospace !important;
+    background: url("markus-winkler-cS2eQHB7wE4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 1366px;
+}
+
+h1 {
+    background-color: rgba(99, 98, 98, 0.602);
+    color: white !important;
+}
+
+.img1 {
+    left: 0 !important;
+    position: absolute !important;
+}
+
+.img2 {
+    right: 0 !important;
+    position: absolute !important;
+}
+.header1{
+    right: 0 !important;
+    position: absolute !important;
+    color:white;
+    background-color: rgba(99, 98, 98, 0.602);
+    border-radius:10px;
+}
+.header2{
+    left: 0 !important;
+    position: absolute !important;  
+    background-color: rgba(99, 98, 98, 0.602);
+    border-radius:10px;
+}

@@ -2,8 +2,8 @@ body {
     text-align: center !important;
     font-family: 'Syne Mono', monospace !important;
     background: url("markus-winkler-cS2eQHB7wE4-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: 1366px;
+    align-content: space-between;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -12,24 +12,64 @@ h1 {
 }
 
 .img1 {
-    left: 0 !important;
+
     position: absolute !important;
+    width:800px !important;
+    margin-left:-400px;
+
+
 }
 
 .img2 {
-    right: 0 !important;
+    width:800px !important;
     position: absolute !important;
+    margin-top:800px;
+    margin-left:-400px;
+}
+.img3{
+    width:800px !important;
+    position: absolute !important;
+    margin-top:1500px;
+    margin-left:-300px;
 }
 .header1{
-    right: 0 !important;
     position: absolute !important;
     color:white;
     background-color: rgba(99, 98, 98, 0.602);
     border-radius:10px;
+    margin-top:450px;
 }
 .header2{
-    left: 0 !important;
-    position: absolute !important;  
+    position: absolute !important;
     background-color: rgba(99, 98, 98, 0.602);
     border-radius:10px;
+    color:white;
+    margin-top:1250px;
+
+}
+.header3{
+    position: absolute !important;
+    background-color: rgba(99, 98, 98, 0.602);
+    border-radius:10px;
+    color:white;
+    margin-top:1950px;
+    
+}
+.header4{
+    position: absolute !important;
+    background-color: rgba(99, 98, 98, 0.602);
+    border-radius:10px;
+    color:white;
+    margin-top:2760px;
+}
+.img4{
+    width:800px !important;
+    position: absolute !important;
+    margin-top:2160px;
+    margin-left:-500px;
+}
+#h21{
+margin-top:3000px;
+color:white;
+background-color:rgba(128, 128, 128, 0.534);
 }
